@@ -28,7 +28,6 @@ poetry run splitter rectangles sample-pdf.pdf sample-dir --padding 5
 ```
 produces the following JSON
 ```json
-start count 9427
 [
   {
     "page": "sample-dir/sample-pdf.pdf-1.png",
