@@ -21,6 +21,8 @@ sample-dir is the sample output directory. This was generated with the following
 poetry run splitter images sample-pdf.pdf sample-dir --padding 5
 ```
 
+<img src="sample-dir/sample-pdf.pdf-1.rects.png"/>
+
 ## Image output sample
 
 ```bash
