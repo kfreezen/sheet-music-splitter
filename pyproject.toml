@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sheet-music-splitter"
+version = "0.1.0"
+description = ""
+authors = ["Kent Friesen <kfreezen@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python-headless = "^4.10.0.84"
+pypdfium2 = "^4.30.0"
+click = "^8.1.7"
+pillow = "^11.0.0"
+
+[tool.poetry.scripts]
+splitter = "sheet_music_splitter:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
