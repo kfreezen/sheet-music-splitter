@@ -23,6 +23,61 @@ poetry run splitter images sample-pdf.pdf sample-dir --padding 5
 
 <img src="sample-dir/sample-pdf.pdf-1.rects.png"/>
 
+```bash
+poetry run splitter rectangles sample-pdf.pdf sample-dir --padding 5
+```
+produces the following JSON
+```json
+start count 9427
+[
+  {
+    "page": "sample-dir/sample-pdf.pdf-1.png",
+    "rectangles": [
+      {
+        "top_left": [
+          234,
+          693
+        ],
+        "bottom_right": [
+          3421,
+          1551
+        ]
+      },
+      {
+        "top_left": [
+          234,
+          1628
+        ],
+        "bottom_right": [
+          3421,
+          2500
+        ]
+      },
+      {
+        "top_left": [
+          234,
+          2575
+        ],
+        "bottom_right": [
+          3421,
+          3425
+        ]
+      },
+      {
+        "top_left": [
+          234,
+          3537
+        ],
+        "bottom_right": [
+          3421,
+          4388
+        ]
+      }
+    ]
+  }
+]
+```
+
 ## Image output sample
 
 ```bash
