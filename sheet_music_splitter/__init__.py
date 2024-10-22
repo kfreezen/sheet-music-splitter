@@ -249,7 +249,7 @@ def get_page_rectangles(image_name, padding=3):
 
     tries = 10
     last_count = len(rectangles)
-    print("start count", last_count)
+    print("start count", last_count, file=sys.stderr)
     while tries > 0:
         tries -= 1
 
